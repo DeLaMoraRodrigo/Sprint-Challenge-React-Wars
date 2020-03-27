@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    React is a framework for javascript. It attempts to make rendering UI easier and more efficient by modularizing the different components of the UI. Having state allows
+    for a dynamic UI and components make it easier to modify certain aspects of the UI.
+
 - [ ] What does it mean to _think_ in react?
+
+    To break a UI down into its base components and knowing how those components come together.
 
 - [ ] Describe state.
 
+    State is a value in a component that can be updated and then be rendered in its new state.
+
 - [ ] Describe props.
 
+    A keyword that stands for properties and is used to pass data between components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    Side effects are anything that affects something outside the scope of the function. You sync effects using useEffect to update state and props after the initial render.
 
 ## Project Set Up
 
